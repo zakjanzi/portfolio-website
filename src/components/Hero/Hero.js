@@ -8,12 +8,12 @@ const Hero = (props) => (
   <Section row nopadding>
     <LeftSection>
       <SectionTitle main center>
-        Hi there. Here's my portfolio.
+        Hi there.
       </SectionTitle>
       <SectionText>
-        A full-stack developer with an interest in blockchains and distributed systems.
+        I'm Zak. A full-stack developer with a background in QA testing. I like blockchains and distributed systems.
       </SectionText>
-      <Button onClick={() => window.location = "https://linktree.com"}>Chat</Button>
+      <Button onClick={() => window.location = "https://linktr.ee/zakjanzi"}>Chat</Button>
     </LeftSection>
   </Section>
 );

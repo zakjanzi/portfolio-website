@@ -19,9 +19,7 @@ const Technologies = () =>  (
           <ListParagraph>Experience with <br /> React.js</ListParagraph>
         </ListContainer>
       </ListItem>
-    </List>
 
-    <List>
       <ListItem>
         <DiFirebase size="3rem"/>
         <ListContainer>
@@ -29,9 +27,7 @@ const Technologies = () =>  (
           <ListParagraph>Experience with <br /> Node.js</ListParagraph>
         </ListContainer>
       </ListItem>
-    </List>
 
-    <List>
       <ListItem>
         <DiZend size="3rem"/>
         <ListContainer>

@@ -42,10 +42,6 @@ const Header = () =>  (
       <SocialIcons href='https://linkedin.com' >
         <AiFillLinkedin size="3rem" />
       </SocialIcons>
-
-      <SocialIcons href='https://github.com/zakjanzi' >
-        <AiFillInstagram size="3rem" />
-      </SocialIcons>
       </Div3>
 
   </Container>

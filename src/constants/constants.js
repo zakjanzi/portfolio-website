@@ -2,7 +2,7 @@ export const projects = [
   {
     title: 'A MERN Site',
     description: "Using React, Node.js, Express & MongoDB. Track your job applications using Jobify.",
-      image: '/images/1.png',
+      image: './styles/images/1.png',
       tags: ['Mongo', 'Express', 'React', 'Node'],
     source: 'https://google.com',
     visit: 'https://google.com',

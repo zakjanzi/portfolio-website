@@ -1,5 +1,5 @@
 import React from 'react';
-import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
+import { DiFirebase, DiReact, DiScrum, DiZend } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -7,16 +7,15 @@ const Technologies = () =>  (
   <Section id="tech" >
     <SectionDivider />
     <br />
-    <SectionTitle>Technologies</SectionTitle>
+    <SectionTitle>My Stack</SectionTitle>
     <SectionText>
-      Here are the range of technologies that I've worked with.
     </SectionText>
     <List>
       <ListItem>
         <DiReact size="3rem"/>
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
-          <ListParagraph>Experience with <br /> React.js</ListParagraph>
+          <ListParagraph>Proficient in HTML, CSS and JavaScript. I learned to build and deploy static websites from scratch. Interested in exploring an SSR like Gulp or Gatsby in the near future. Also adept with React.js and several libraries (such as material UI).</ListParagraph>
         </ListContainer>
       </ListItem>
 
@@ -24,7 +23,7 @@ const Technologies = () =>  (
         <DiFirebase size="3rem"/>
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
-          <ListParagraph>Experience with <br /> Node.js</ListParagraph>
+          <ListParagraph>Experienced with Node.js in building server-side apps as well as RESTful APIs. Competent in Postman for API testing (thanks to my QA background)</ListParagraph>
         </ListContainer>
       </ListItem>
 
@@ -32,7 +31,15 @@ const Technologies = () =>  (
         <DiZend size="3rem"/>
         <ListContainer>
           <ListTitle>UI/UX Design</ListTitle>
-          <ListParagraph>Experience with <br /> Figma</ListParagraph>
+          <ListParagraph>Experienced with tools like Figma, Photoshop and Illustrator.</ListParagraph>
+        </ListContainer>
+      </ListItem>
+
+      <ListItem>
+        <DiScrum size="3rem"/>
+        <ListContainer>
+          <ListTitle>Manual & Automated QA Tester</ListTitle>
+          <ListParagraph>2 years of experience in manual QA testing in an agile environment. Competent with Cypress.js testing framework for end-to-end tests.</ListParagraph>
         </ListContainer>
       </ListItem>
     </List>

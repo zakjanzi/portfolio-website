@@ -2,7 +2,7 @@ export const projects = [
   {
     title: 'A MERN Site',
     description: "Using React, Node.js, Express & MongoDB. Track your job applications using Jobify.",
-      image: './styles/images/1.png',
+      image: '/images/jobify.svg',
       tags: ['Mongo', 'Express', 'React', 'Node'],
     source: 'https://google.com',
     visit: 'https://google.com',
@@ -38,9 +38,8 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: 'Started my journey', },
-  { year: 2018, text: 'Worked as a freelance developer', },
-  { year: 2019, text: 'Founded JavaScript Mastery', },
-  { year: 2020, text: 'Shared my projects with the world', },
-  { year: 2021, text: 'Started my own platform', },
+  { year: 2020, text: 'JS and Python syntax. Introduction to the world of OOP.', },
+  { year: 2021, text: 'Experimented with Vanilla JS and some libraries ', },
+  { year: 2022, text: 'Founded JavaScript Mastery', },
+  { year: 2023, text: 'Shared my projects with the world', },
 ];

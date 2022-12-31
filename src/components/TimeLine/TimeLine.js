@@ -44,8 +44,8 @@ const Timeline = () => {
 
   return (
     <Section id='about'>
-      <SectionTitle>About Me/Timeline</SectionTitle>
-      <SectionText>Lorem ipsum how did i start learning ewhat are mny biggest milestones etc.</SectionText>
+      <SectionTitle>Timeline</SectionTitle>
+      <SectionText>I don’t define myself by the work I’ve done so far. I define myself by the work I want to do. Skills can be taught but personality is inherent.</SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
         {TimeLineData.map((item, index) => (

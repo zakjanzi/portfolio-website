@@ -2,7 +2,7 @@
 import Link from 'next/link';
 import React from 'react';
 //icons
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
+import { AiFillGithub, AiFillLinkedin, AiFillCodepenCircle } from 'react-icons/ai';
 import { DiCssdeck } from 'react-icons/di';
 //styled components
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span } from './HeaderStyles';
@@ -41,6 +41,10 @@ const Header = () =>  (
 
       <SocialIcons href='https://linkedin.com' >
         <AiFillLinkedin size="3rem" />
+      </SocialIcons>
+
+      <SocialIcons href='https://codepen.io/zakjanzi'>
+          <AiFillCodepenCircle size="3rem" />
       </SocialIcons>
       </Div3>
 

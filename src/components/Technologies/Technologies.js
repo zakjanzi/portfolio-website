@@ -1,5 +1,5 @@
 import React from 'react';
-import { DiFirebase, DiReact, DiScrum, DiZend } from 'react-icons/di';
+import { DiEnvato, DiFirebase, DiJavascript, DiJenkins, DiNodejs, DiOpensource, DiReact, DiScrum, DiZend } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -12,7 +12,7 @@ const Technologies = () =>  (
     </SectionText>
     <List>
       <ListItem>
-        <DiReact size="3rem"/>
+        <DiReact size="4rem"/>
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>Proficient in HTML, CSS and JavaScript. I learned to build and deploy static websites from scratch. Interested in exploring an SSR like Gulp or Gatsby in the near future. Also adept with React.js and several libraries (such as material UI).</ListParagraph>
@@ -20,7 +20,7 @@ const Technologies = () =>  (
       </ListItem>
 
       <ListItem>
-        <DiFirebase size="3rem"/>
+        <DiNodejs size="4rem"/>
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>Experienced with Node.js in building server-side apps as well as RESTful APIs. Competent in Postman for API testing (thanks to my QA background)</ListParagraph>
@@ -28,18 +28,26 @@ const Technologies = () =>  (
       </ListItem>
 
       <ListItem>
-        <DiZend size="3rem"/>
+        <DiOpensource size="4rem"/>
         <ListContainer>
-          <ListTitle>UI/UX Design</ListTitle>
-          <ListParagraph>Experienced with tools like Figma, Photoshop and Illustrator.</ListParagraph>
+          <ListTitle>Blockchain Dev</ListTitle>
+          <ListParagraph>In-depth knowledge of blockchain technology. Familiar with frameworks like Hardhat & Truffle. Deployed a few contracts forked from the Open Zeppelin library and worked on non-custodial mobile wallets. Also experimented with web3 user auth using Moralis.</ListParagraph>
         </ListContainer>
       </ListItem>
 
       <ListItem>
-        <DiScrum size="3rem"/>
+        <DiEnvato size="4rem"/>
+        <ListContainer>
+          <ListTitle>UI/UX Design</ListTitle>
+          <ListParagraph>Experienced with tools like Figma, Photoshop and Illustrator. Can quickly create visually appealing designs and mockups for a project.</ListParagraph>
+        </ListContainer>
+      </ListItem>
+
+      <ListItem>
+        <DiJenkins size="4rem"/>
         <ListContainer>
           <ListTitle>Manual & Automated QA Tester</ListTitle>
-          <ListParagraph>2 years of experience in manual QA testing in an agile environment. Competent with Cypress.js testing framework for end-to-end tests.</ListParagraph>
+          <ListParagraph>2 years of experience in manual QA testing in an agile environment. Competent with Cypress.js testing framework for end-to-end tests. Used Jenkins CI for automating build and testing processes.</ListParagraph>
         </ListContainer>
       </ListItem>
     </List>

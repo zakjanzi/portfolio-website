@@ -37,7 +37,7 @@ const Technologies = () =>  {
         <DiNodejs size="4rem"/>
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
-          <ListParagraph>Experienced with Node.js in building server-side apps as well as Next.js for RESTful APIs. Competent in Postman for API testing (thanks to the basic scripting experience gained from my QA background)</ListParagraph>
+          <ListParagraph>Experienced with Node.js & Express in building server-side apps as well as RESTful APIs. Competent in Postman for API testing (thanks to the basic scripting experience gained from my QA background)</ListParagraph>
         </ListContainer>
       </ListItem>
 

@@ -25,7 +25,7 @@ export const Boxes = styled.div`
 export const Box = styled.div`
   background: #212D45;
   border-radius: 12px;
-  height: 220px;
+  height: 280px;
   padding: 24px;
   @media ${props => props.theme.breakpoints.lg} {
     height: 210px;
@@ -33,13 +33,13 @@ export const Box = styled.div`
   }
 
   @media ${props => props.theme.breakpoints.md} {
-    height: 135px;
+    height: 300px;
     padding: 16px;
   }
 
   @media ${props => props.theme.breakpoints.sm} {
-    height: 110px;
-    padding: 12px;
+    height: 180px;
+    padding: 18px;
     
     &:nth-child(2n){
       grid-row:2;

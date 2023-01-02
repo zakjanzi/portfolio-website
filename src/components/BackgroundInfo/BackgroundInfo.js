@@ -9,10 +9,10 @@ import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalCompon
 import { Box, Boxes, BoxNum, BoxText } from './BackgroundInfoStyles';
 
 const data = [
-  { title: 'B.Sc in Business', text: 'Entrepreneurial mgt. at the Lebanese American University'},
-  { title: 'FinTech background', text: 'Strong knowledge in P2P finance', },
-  { title: 'Startup experience', text: 'Knowledgeable about the agile development process', },
-  { title: 'Blockchain researcher', text: 'Studied the ramifications of blockchain in hyperinflationary economies.'}
+  { title: 'B.Sc in Business', text: 'Studied Entrepreneurial management at the Lebanese American University. Class of 2018' },
+  { title: 'Startup experience', text: 'Multiple years of experience working in fast-paced agile environments. Strong background in FinTech (specifically P2P finance)', },
+  { title: 'Blockchain researcher', text: 'Studied the ramifications of blockchain in hyperinflationary economies.'},
+  { title: '3+ Languages', text: 'English, Swedish & Arabic. Currently learning Spanish', }
 ];
 
 const BackgroundInfo = () => {

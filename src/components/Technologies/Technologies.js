@@ -37,7 +37,7 @@ const Technologies = () =>  {
         <DiNodejs size="4rem"/>
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
-          <ListParagraph>Experienced with Node.js in building server-side apps as well as RESTful APIs. Competent in Postman for API testing (thanks to my QA background)</ListParagraph>
+          <ListParagraph>Experienced with Node.js in building server-side apps as well as Next.js for RESTful APIs. Competent in Postman for API testing (thanks to the basic scripting experience gained from my QA background)</ListParagraph>
         </ListContainer>
       </ListItem>
 
@@ -53,7 +53,7 @@ const Technologies = () =>  {
         <DiEnvato size="4rem"/>
         <ListContainer>
           <ListTitle>UI/UX Design</ListTitle>
-          <ListParagraph>Experienced with tools like Figma, Photoshop and Illustrator. Can quickly create visually appealing designs and mockups for a project.</ListParagraph>
+          <ListParagraph>Experienced with tools like Figma, Photoshop and Illustrator. Can quickly create visually appealing designs and mockups for a project. Can also turn Figma wireframes to code with pixel-perfect designs.</ListParagraph>
         </ListContainer>
       </ListItem>
 

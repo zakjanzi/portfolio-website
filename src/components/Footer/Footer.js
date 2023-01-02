@@ -20,8 +20,13 @@ const Footer = () => {
         </LinkColumn>
       </LinkList>
       <SocialIconsContainer>
+      <CompanyContainer>
+          <Slogan>This site was built using React, Node and Next.js</Slogan>
+        </CompanyContainer>
         
         <SocialContainer>
+
+        
 
           <SocialIcons href="https://github.com/zakjanzi">
             <AiFillGithub size="3rem" />

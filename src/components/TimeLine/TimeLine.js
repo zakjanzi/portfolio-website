@@ -5,6 +5,7 @@ import "aos/dist/aos.css"
 //components
 import { CarouselButton, CarouselButtonDot, CarouselButtons, CarouselContainer, CarouselItem, CarouselItemImg, CarouselItemText, CarouselItemTitle, CarouselMobileScrollNode } from './TimeLineStyles';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
+//content
 import { TimeLineData } from '../../constants/constants';
 
 const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
@@ -55,7 +56,7 @@ const Timeline = () => {
   return (
     <Section id='about' data-aos="fade-up">
       <SectionTitle>Timeline</SectionTitle>
-      <SectionText>I don’t define myself by the work I’ve done so far. I define myself by the work I want to do. Skills can be taught but personality is inherent.</SectionText>
+      <SectionText>I don’t define myself by the work I’ve done so far, but rather by the work I want to do. Skills can be taught but personality is inherent. </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
         {TimeLineData.map((item, index) => (

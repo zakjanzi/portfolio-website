@@ -38,8 +38,8 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2020, text: 'Focused on learning language syntax. Learned Python basics, but focused more on JavaScript.', },
-  { year: 2021, text: 'Focused on theoretical aspect of web development. Learned about design patterns and focused on JavaScript fundamentals required for web development - Worked as a manual QA tester meanwhile.', },
-  { year: 2022, text: 'Built my first full-stack web application. Also experimented with RESTful APIs (as well as testing tools like Postman and Cypress). Landed 2 clients and delivered both projects.', },
+  { year: 2020, text: 'Started learning language syntax. Learned Python basics, then focused more on JavaScript.', },
+  { year: 2021, text: 'Studied theoretical aspects of web development. Learned about design patterns and focused on JavaScript fundamentals required for web dev (async functions, DOM manipulation...). Worked as a manual QA tester in parallel.', },
+  { year: 2022, text: 'Built my first full-stack web application (CRUD app). Also experimented with RESTful APIs (as well as testing tools like Postman and Cypress). This is where I combined all the knowledge acquired the past couple years to start actually building and deploying stuff.', },
   { year: 2023, text: 'I think it\u0027s about time I learned TypeScript.', },
 ];

@@ -9,6 +9,7 @@
     "dev": "cross-env NODE_OPTIONS='--openssl-legacy-provider' next dev"
   },
   "dependencies": {
+    "aos": "^2.3.4",
     "cross-env": "^7.0.3",
     "next": "^10.2.3",
     "react": "^17.0.2",

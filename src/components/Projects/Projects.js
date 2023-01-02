@@ -1,8 +1,13 @@
 import React from 'react';
+//hooks
 import { useRef, useEffect, useState } from 'react';
+//animations
+import Aos from 'aos';
+import "aos/dist/aos.css"
+//components
 import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './ProjectsStyles';
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
-// Constants separates the logic from the content.
+// Data/content.
 import { projects } from '../../constants/constants';
 
 
@@ -10,21 +15,29 @@ import { projects } from '../../constants/constants';
 
 
 export default function Projects() {
-  const myRef = useRef();
-  const [myElementIsVisible, setMyElementIsVisible] = useState();
-  console.log('myElementIsVisible', myElementIsVisible )
-  useEffect (() => {
-    const observer = new IntersectionObserver((entries) => {
-      const entry = entries[0];
-      setMyElementIsVisible(entry.isIntersecting)
-    })
-    observer.observe(myRef.current)
-  }, [])
+  // const myRef = useRef();
+  // const [myElementIsVisible, setMyElementIsVisible] = useState();
+  // console.log('myElementIsVisible', myElementIsVisible )
+  // useEffect (() => {
+  //   const observer = new IntersectionObserver((entries) => {
+  //     const entry = entries[0];
+  //     setMyElementIsVisible(entry.isIntersecting)
+  //   })
+  //   observer.observe(myRef.current)
+  // }, [])
+
+  useEffect(() => {
+    Aos.init({ 
+      duration: 2000
+    });
+
+  }, []);
+
   return (
   <Section nopadding id="projects">
     <SectionDivider />
     <br />
-    <SectionTitle ref={myRef}>Projects</SectionTitle>
+    <SectionTitle data-aos="fade-up">Projects</SectionTitle>
     <GridContainer>
       {projects.map((project) => (
         <BlogCard key={project.id}>

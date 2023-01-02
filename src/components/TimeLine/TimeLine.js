@@ -1,5 +1,8 @@
 import React, { useState, useRef, useEffect } from 'react';
-
+//animations
+import Aos from 'aos';
+import "aos/dist/aos.css"
+//components
 import { CarouselButton, CarouselButtonDot, CarouselButtons, CarouselContainer, CarouselItem, CarouselItemImg, CarouselItemText, CarouselItemTitle, CarouselMobileScrollNode } from './TimeLineStyles';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { TimeLineData } from '../../constants/constants';
@@ -32,6 +35,13 @@ const Timeline = () => {
     }
   }
 
+  useEffect(() => {
+    Aos.init({ 
+      duration: 2000
+    });
+
+  }, []);
+
   // snap back to beginning of scroll when window is resized
   // avoids a bug where content is covered up if coming from smaller screen
   useEffect(() => {
@@ -43,7 +53,7 @@ const Timeline = () => {
   }, []);
 
   return (
-    <Section id='about'>
+    <Section id='about' data-aos="fade-up">
       <SectionTitle>Timeline</SectionTitle>
       <SectionText>I don’t define myself by the work I’ve done so far. I define myself by the work I want to do. Skills can be taught but personality is inherent.</SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>

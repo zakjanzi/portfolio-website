@@ -2,15 +2,29 @@ import React from 'react';
 import { DiEnvato, DiFirebase, DiJavascript, DiJenkins, DiNodejs, DiOpensource, DiReact, DiScrum, DiZend } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
+//animations
+import Aos from 'aos';
+import "aos/dist/aos.css"
+//hooks
+import { useRef, useEffect, useState } from 'react';
 
-const Technologies = () =>  (
+
+const Technologies = () =>  {
+
+    useEffect(() => {
+    Aos.init({ 
+      duration: 2000
+    });
+
+  }, []);
+
+  return (
   <Section id="tech" >
     <SectionDivider />
     <br />
-    <SectionTitle>My Stack</SectionTitle>
-    <SectionText>
-    </SectionText>
-    <List>
+    <SectionTitle data-aos="fade-up">My Stack</SectionTitle>
+    <SectionText data-aos="fade-right"> What I know and what I plan on learning.</SectionText>
+    <List data-aos="fade-right">
       <ListItem>
         <DiReact size="4rem"/>
         <ListContainer>
@@ -31,7 +45,7 @@ const Technologies = () =>  (
         <DiOpensource size="4rem"/>
         <ListContainer>
           <ListTitle>Blockchain Dev</ListTitle>
-          <ListParagraph>In-depth knowledge of blockchain technology. Familiar with frameworks like Hardhat & Truffle. Deployed a few contracts forked from the Open Zeppelin library and worked on non-custodial mobile wallets. Also experimented with web3 user auth using Moralis.</ListParagraph>
+          <ListParagraph>In-depth knowledge of blockchain technology. Basic knowledge of Solidity and its frameworks (Hardhat / Truffle). Deployed a few contracts forked from the Open Zeppelin library and worked on non-custodial mobile wallets. Also experimented with web3 user auth using Moralis.</ListParagraph>
         </ListContainer>
       </ListItem>
 
@@ -53,5 +67,5 @@ const Technologies = () =>  (
     </List>
   </Section>
 );
-
+};
 export default Technologies;

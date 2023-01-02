@@ -34,10 +34,10 @@ export default function Projects() {
   }, []);
 
   return (
-  <Section nopadding id="projects">
+  <Section nopadding id="projects" data-aos="fade-up">
     <SectionDivider />
     <br />
-    <SectionTitle data-aos="fade-up">Projects</SectionTitle>
+    <SectionTitle>Projects</SectionTitle>
     <GridContainer>
       {projects.map((project) => (
         <BlogCard key={project.id}>
@@ -55,8 +55,8 @@ export default function Projects() {
             </TagList>
           </div>
           <UtilityList>
-            <ExternalLinks href={project.visit}>Code</ExternalLinks>
-            <ExternalLinks href={project.source}>Source</ExternalLinks>
+            <ExternalLinks href={project.visit}>View Code</ExternalLinks>
+            <ExternalLinks href={project.source}>View Site</ExternalLinks>
           </UtilityList>
         </BlogCard>
       ))}

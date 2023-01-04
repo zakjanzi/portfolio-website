@@ -38,7 +38,7 @@ export const projects = [
 
   {
     title: 'Web3 Auth with Moralis',
-    description: "Connecting to the Moralis SDK with vanilla JS. Login/logout with Metamask to authenticate yourself",
+    description: "Connecting to the Moralis SDK with vanilla JS. Login/logout with Metamask to authenticate yourself.",
     image: '/images/5.png',
     tags: ['Vanilla JavaScript', 'Moralis SDK'],
     code: 'https://github.com/zakjanzi/vanillamoralis',

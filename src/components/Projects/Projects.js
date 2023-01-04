@@ -55,8 +55,8 @@ export default function Projects() {
             </TagList>
           </div>
           <UtilityList>
-            <ExternalLinks href={project.visit}>View Code</ExternalLinks>
-            <ExternalLinks href={project.source}>View Site</ExternalLinks>
+            <ExternalLinks href={project.code} target="_blank">View Code</ExternalLinks>
+            <ExternalLinks href={project.live} target="_blank">View Site</ExternalLinks>
           </UtilityList>
         </BlogCard>
       ))}

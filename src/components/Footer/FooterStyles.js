@@ -96,7 +96,7 @@ export const Slogan = styled.p`
 
 	@media ${props => props.theme.breakpoints.sm}{
 		line-height: 22px;
-		font-size: 14px;
+		font-size: 12px;
 		min-width: 100px;
 	}
 `

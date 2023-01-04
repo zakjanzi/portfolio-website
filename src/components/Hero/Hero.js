@@ -24,7 +24,7 @@ const Hero = (props) => {
       <SectionText>
         I'm Zak - A full-stack developer with a background in QA testing. <br /> I also like blockchains and distributed systems.
       </SectionText>
-      <Button onClick={() => window.location = "https://linktr.ee/zakjanzi"} >Reach out</Button>
+      <Button onClick={() => window.location = "https://linktr.ee/zakjanzi"}>View CV</Button>
     </LeftSection>
   </Section>
 );

@@ -21,7 +21,7 @@ const Footer = () => {
       </LinkList>
       <SocialIconsContainer>
       <CompanyContainer>
-          <Slogan>This site was built using React, Node and Next.js</Slogan>
+          <Slogan>This site was built with React.js, Node.js and Next.js</Slogan>
         </CompanyContainer>
         
         <SocialContainer>

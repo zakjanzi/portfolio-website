@@ -4,7 +4,7 @@ export const projects = [
     description: "Track your job applications using Jobify. Built using React, Node.js, Express & MongoDB.",
       image: '/images/1.png',
       tags: ['Mongo', 'Express', 'React', 'Node'],
-    code: 'https://google.com',
+    code: 'https://github.com/zakjanzi/jobify-app',
     live: 'https://zak-jobify.netlify.app/',
     id: 0,
   },
@@ -41,15 +41,15 @@ export const projects = [
     description: "Connecting to the Moralis SDK with vanilla JS. Login/logout with Metamask to authenticate yourself",
     image: '/images/5.png',
     tags: ['Vanilla JavaScript', 'Moralis SDK'],
-    code: 'https://zak-moralisauth.netlify.app/',
-    live: 'https://github.com/zakjanzi/vanillamoralis',
+    code: 'https://github.com/zakjanzi/vanillamoralis',
+    live: 'https://zak-moralisauth.netlify.app/',
     id: 4,
   },
 ];
 
 export const TimeLineData = [
-  { year: 2020, text: 'Started learning language syntax. Learned Python basics, then focused more on JavaScript.', },
-  { year: 2021, text: 'Studied theoretical aspects of web development. Learned about design patterns and focused on JavaScript fundamentals required for web dev (async functions, DOM manipulation...). Worked as a manual QA tester in parallel.', },
-  { year: 2022, text: 'Built my first full-stack web application (CRUD app). Also experimented with RESTful APIs (as well as testing tools like Postman and Cypress). This is where I combined all the knowledge acquired the past couple years to start actually building and deploying stuff.', },
+  { year: 2020, text: 'Left the business side of things and started learning language syntax. I learned Python basics first, but then decided to go down the JavaScript route.', },
+  { year: 2021, text: 'Studied theoretical aspects of web development. Learned about design patterns and focused on JavaScript fundamentals required for web development. Worked as a manual QA tester in parallel.', },
+  { year: 2022, text: 'Built my first CRUD app. Also experimented with RESTful APIs (as well as testing tools like Postman and Cypress). This is where I combined all the knowledge acquired the past couple years to start actually building and deploying stuff.', },
   { year: 2023, text: 'I think it\u0027s about time I learned TypeScript.', },
 ];

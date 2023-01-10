@@ -5,7 +5,7 @@ export const projects = [
       image: '/images/1.png',
       tags: ['Mongo', 'Express', 'React', 'Node'],
     code: 'https://github.com/zakjanzi/jobify-app',
-    live: 'https://zak-jobify.netlify.app/',
+    live: 'https://zak-jobify-mern.netlify.app/',
     id: 0,
   },
   {

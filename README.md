@@ -1,3 +1,5 @@
-## Personal Portfolio
+## My Portfolio website
 
-![Portfolio Website](https://i.ibb.co/WgPMpts/image.png)
+Live at: https://zakjanzi.netlify.app
+
+Built with React, Node and Express.

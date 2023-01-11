@@ -12,7 +12,7 @@ const data = [
   { title: 'B.Sc in Business', text: 'Studied Entrepreneurial management at the Lebanese American University. Class of 2018.' },
   { title: 'Startup experience', text: 'Multiple years of experience working in fast-paced agile environments. Strong background in FinTech. (P2P finance)', },
   { title: 'Blockchain researcher', text: 'Studied the ramifications of blockchain in hyperinflationary economies.'},
-  { title: '3+ Languages', text: ' Fluent in English, Arabic and Swedish with have a strong understanding of the cultural distinctions between the EU, MENA and NA regions.', }
+  { title: '3+ Languages', text: ' Fluent in English, Arabic and Swedish with strong understanding of the cultural distinctions between the EU, MENA and NA regions.', }
 ];
 
 const BackgroundInfo = () => {

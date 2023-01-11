@@ -29,7 +29,7 @@ const Technologies = () =>  {
         <DiReact size="4rem"/>
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
-          <ListParagraph>Proficient in HTML, CSS and JavaScript. I learned to build and deploy static websites from scratch. Interested in exploring an SSR like Gulp or Gatsby in the near future. Also adept with React.js and several libraries (such as material UI).</ListParagraph>
+          <ListParagraph>Proficient in HTML, CSS and JavaScript. I learned to build and deploy static websites from scratch. Interested in exploring an SSR like Gatsby in the near future. Very good knowledge of React.js/ Native and several libraries (such as material UI).</ListParagraph>
         </ListContainer>
       </ListItem>
 
@@ -37,7 +37,7 @@ const Technologies = () =>  {
         <DiNodejs size="4rem"/>
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
-          <ListParagraph>Experienced with Node.js & Express in building server-side apps as well as RESTful APIs. Competent in Postman for API testing (thanks to the basic scripting experience gained from my QA background)</ListParagraph>
+          <ListParagraph>Experienced with Node.js & Express in building server-side apps as well as RESTful APIs. Competent in Postman for API testing (gained from my QA background). Familiar with CI/CD tools like Jenkins and Netlify.</ListParagraph>
         </ListContainer>
       </ListItem>
 

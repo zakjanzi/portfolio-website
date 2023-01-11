@@ -10,11 +10,11 @@ const Footer = () => {
       <LinkList>
         <LinkColumn>
           <LinkTitle>Call</LinkTitle>
-          <LinkItem href="tel:0046793048685">+46 793 048 685</LinkItem>
+          <LinkItem href="tel:0046793048685" target="_blank">+46 793 048 685</LinkItem>
         </LinkColumn>
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
-          <LinkItem href="mailto:zakjanzi@hotmail.com">
+          <LinkItem href="mailto:zakjanzi@hotmail.com" target="_blank">
             zakjanzi@hotmail.com
           </LinkItem>
         </LinkColumn>
@@ -28,15 +28,15 @@ const Footer = () => {
 
         
 
-          <SocialIcons href="https://github.com/zakjanzi">
+          <SocialIcons href="https://github.com/zakjanzi" target="_blank">
             <AiFillGithub size="3rem" />
           </SocialIcons>
 
-          <SocialIcons href="https://www.linkedin.com/in/zakaria-j-714816111/">
+          <SocialIcons href="https://www.linkedin.com/in/zakaria-j-714816111/" target="_blank">
             <AiFillLinkedin size="3rem" />
           </SocialIcons>
 
-          <SocialIcons href="https://codepen.io/zakjanzi">
+          <SocialIcons href="https://codepen.io/zakjanzi" target="_blank">
             <AiFillCodepenCircle size="3rem" />
           </SocialIcons>
 

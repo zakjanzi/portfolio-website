@@ -7,6 +7,8 @@ import { LeftSection } from './HeroStyles';
 //animations
 import Aos from 'aos';
 import "aos/dist/aos.css"
+//helmet
+import { Helmet } from 'react-helmet';
 
 const Hero = (props) => {
     useEffect(() => {
@@ -16,17 +18,17 @@ const Hero = (props) => {
 
   }, []);
   return (
+    <>
     <Helmet>
-      <>
-      
         <meta property="og:title" content="Zak's Portfolio" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://zakjanzi.netlify.app" />
         <meta property="og:image" content="https://i.postimg.cc/fbWn28R6/SON8258-Copy-2.jpg" />
         <meta property="og:description" content="Junior full-stack JavaScript developer" />
         <meta property="og:site_name" content="Zak's Portfolio" />
-      </>
-      </Helmet>
+
+    </Helmet>
+     
   <Section row nopadding>
     <LeftSection data-aos="fade-in">
       <SectionTitle main center>
@@ -38,6 +40,7 @@ const Hero = (props) => {
       <Button onClick={() => window.location = "https://linktr.ee/zakjanzi"}>View CV</Button>
     </LeftSection>
   </Section>
+  </>
 );
 }
 export default Hero;

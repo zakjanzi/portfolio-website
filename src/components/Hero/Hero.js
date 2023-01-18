@@ -21,7 +21,7 @@ const Hero = (props) => {
     <>
     <Helmet>
         <meta name="google-site-verification" content="MbCRB97d_qK4BfXEHJWf6IOt2o_oTSK7exvtgI1aUfY" />
-        <meta property="og:title" content="Zak's Portfolio" />
+        <meta property="og:title" content="Zak Janzi - Portfolio" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://zakjanzi.netlify.app" />
         <meta property="og:image" content="https://i.postimg.cc/fbWn28R6/SON8258-Copy-2.jpg" />

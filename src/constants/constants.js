@@ -2,7 +2,7 @@ export const projects = [
   {
     title: 'A MERN Site',
     description: "Track your job applications using Jobify. Built using React, Node.js, Express & MongoDB.",
-      image: '/images/1.png',
+      image: '/images/1.webp',
       tags: ['Mongo', 'Express', 'React', 'Node'],
     code: 'https://github.com/zakjanzi/jobify-app',
     live: 'https://zak-jobify.netlify.app/landing',
@@ -29,7 +29,7 @@ export const projects = [
   {
     title: 'A Cryptocurrency Dashboard',
     description: "A clone of coinmarketcap. Built with Node.js, Next.js, Bootstrap and the CoinGecko API.",
-    image: '/images/4.png',
+    image: '/images/4.webp',
     tags: ['Node.js', 'Next.js','Bootstrap',],
     code: 'https://github.com/zakjanzi/coinmarketcap_clone',
     live: 'https://zak-coinmarketcapclone.netlify.app/',
@@ -39,7 +39,7 @@ export const projects = [
   {
     title: 'Metamask Login Button',
     description: "Connect your wallet to a dApp using Metamask login.",
-    image: '/images/5.png',
+    image: '/images/5.webp',
     tags: ['Vanilla JavaScript', 'Metamask API'],
     code: 'https://github.com/zakjanzi/metamask_login',
     live: 'https://zak-connectwalletbutton.netlify.app/',

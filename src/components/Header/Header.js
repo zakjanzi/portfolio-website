@@ -12,7 +12,7 @@ const Header = () =>  (
     <Div1>
       <Link href="/">
         <a style= {{display:'flex', alignItems:"center", color:"white", marginBottom:"20px"}}> 
-        <img src="https://i.postimg.cc/ZqN3Qxsx/SON8258-Copy-2-modified.png" style= {{width:'40px', height:'40px', marginRight: '10px'}}/> <Span>Portfolio</Span>
+        <img src="https://i.postimg.cc/tJHX7zS8/profile.webp" style= {{width:'40px', height:'40px', marginRight: '10px'}}/> <Span>Portfolio</Span>
         </a>
       </Link>
     </Div1>

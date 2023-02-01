@@ -1,15 +1,18 @@
 import React from 'react';
-import { DiEnvato, DiFirebase, DiJavascript, DiJenkins, DiNodejs, DiOpensource, DiReact, DiScrum, DiZend } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
-import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
+import { List, ListContainer, ListItem, ListParagraph, ListTitle, TextLink } from './TechnologiesStyles';
 //animations
 import Aos from 'aos';
 import "aos/dist/aos.css"
 //hooks
 import { useRef, useEffect, useState } from 'react';
 
-
 const Technologies = () =>  {
+
+  const linkStyle = {
+    color: '#7DBBC3',
+    textDecoration: 'underlined',
+  };
 
     useEffect(() => {
     Aos.init({ 
@@ -23,45 +26,43 @@ const Technologies = () =>  {
     <SectionDivider />
     <br />
     <SectionTitle data-aos="fade-up">My Stack</SectionTitle>
-    <SectionText data-aos="fade-right"> What I know and what I plan on learning.</SectionText>
     <List data-aos="fade-right">
       <ListItem>
-        <DiReact size="4rem"/>
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
-          <ListParagraph>Proficient in HTML, CSS and JavaScript. I learned to build and deploy static websites from scratch. Interested in exploring an SSR like Gatsby in the near future. Very good knowledge of React.js/ Native and several libraries (such as material UI).</ListParagraph>
+          <ListParagraph>Extensive knowledge in HTML, CSS, and JavaScript. I designed, developed, and deployed high-quality static websites from scratch. I also have a solid understanding of React.js and React Native, and I have effectively utilized MaterialUI to enhance the user interface and experience of my projects.</ListParagraph>
         </ListContainer>
       </ListItem>
 
       <ListItem>
-        <DiNodejs size="4rem"/>
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
-          <ListParagraph>Experienced with Node.js & Express in building server-side apps as well as RESTful APIs. Competent in Postman for API testing (gained from my QA background). Familiar with CI/CD tools like Jenkins and Netlify.</ListParagraph>
+          <ListParagraph>Knowledge of using Next.js for building server-side rendered React applications, and its capabilities such as automatic code splitting, optimized performance, and seamless integration with Node.js and Express.</ListParagraph>
         </ListContainer>
       </ListItem>
 
       <ListItem>
-        <DiOpensource size="4rem"/>
         <ListContainer>
           <ListTitle>Blockchain Dev</ListTitle>
-          <ListParagraph>In-depth knowledge of blockchain technology. Basic knowledge of Solidity and its frameworks (Hardhat / Truffle). Deployed a few contracts forked from the Open Zeppelin library and worked on non-custodial mobile wallets. Also experimented with web3 user auth using Moralis.</ListParagraph>
+          <ListParagraph>Familiar with Solidity and Hardhat. Deployed a few contracts forked from the Open Zeppelin library on the Ethereum network and worked on non-custodial mobile wallets. Very much looking forward to learning Rust or Haskell.</ListParagraph>
         </ListContainer>
       </ListItem>
 
-      <ListItem>
+      {/* <ListItem>
         <DiEnvato size="4rem"/>
         <ListContainer>
           <ListTitle>UI/UX Design</ListTitle>
           <ListParagraph>Experienced with tools like Figma, Photoshop and Illustrator. Can quickly create visually appealing designs and mockups for a project. Can also turn Figma wireframes to code with pixel-perfect designs.</ListParagraph>
         </ListContainer>
-      </ListItem>
+      </ListItem> */}
 
       <ListItem>
-        <DiJenkins size="4rem"/>
         <ListContainer>
-          <ListTitle>Manual & Automated QA Tester</ListTitle>
-          <ListParagraph>2 years of experience in manual QA testing in an agile environment. Competent with Cypress.js testing framework for end-to-end tests. Used Jenkins CI for automating build and testing processes.</ListParagraph>
+          <ListTitle>QA Testing</ListTitle>
+          <ListParagraph>
+            <a style={linkStyle} href="https://atsqa.org/certified-testers/profile/a1400f7c67c9434297f354412437c5d0" target="_blank">
+              Certified ISTQB tester
+            </a> with experience in manual and automated QA testing in an agile environment. Competent writing and running end-to-end tests with Cypress.js. Automated the building, testing and deployment processes of my projects with Netlify.</ListParagraph>
         </ListContainer>
       </ListItem>
     </List>

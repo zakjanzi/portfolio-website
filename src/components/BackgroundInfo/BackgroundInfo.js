@@ -24,7 +24,7 @@ const BackgroundInfo = () => {
   }, []);
   return (
   <Section data-aos="fade-up">
-    <SectionTitle>Some Background</SectionTitle>
+    <SectionTitle>Background Info</SectionTitle>
     <Boxes>
       {data.map((card,index) => (
         <Box key={index}>

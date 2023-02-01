@@ -97,6 +97,7 @@ export const ListParagraph = styled.p`
   }
 `
 
+
 export const ListItem = styled.li`
   max-width: 320px;
   display: flex;

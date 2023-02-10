@@ -11,8 +11,8 @@ import { Box, Boxes, BoxNum, BoxText } from './BackgroundInfoStyles';
 const data = [
   { title: 'B.Sc in Business', text: 'Studied Entrepreneurial management at the Lebanese American University. Class of 2018.' },
   { title: 'Startup experience', text: 'Multiple years of experience working in fast-paced agile environments. Strong background in FinTech. (P2P finance)', },
-  { title: 'Blockchain researcher', text: 'Studied the ramifications of blockchain in hyperinflationary economies.'},
-  { title: '3+ Languages', text: ' Fluent in English, Arabic and Swedish with strong understanding of the cultural distinctions between the EU, MENA and NA regions.', }
+  { title: 'Blockchain researcher', text: 'Studied the applications of blockchain technology in hyperinflationary economies.'},
+  { title: '3+ Languages', text: ' Fluent in English, Arabic and Swedish.', }
 ];
 
 const BackgroundInfo = () => {
@@ -23,7 +23,7 @@ const BackgroundInfo = () => {
 
   }, []);
   return (
-  <Section data-aos="fade-up">
+  <Section data-aos="fade-up" id='background'>
     <SectionTitle>Background Info</SectionTitle>
     <Boxes>
       {data.map((card,index) => (

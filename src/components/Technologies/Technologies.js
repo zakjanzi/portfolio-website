@@ -30,21 +30,21 @@ const Technologies = () =>  {
       <ListItem>
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
-          <ListParagraph>Extensive knowledge in HTML, CSS, and JavaScript. I designed, developed, and deployed high-quality static websites from scratch. I also have a solid understanding of React.js and React Native, and I have effectively utilized MaterialUI to enhance the user interface and experience of my projects.</ListParagraph>
+          <ListParagraph>3+ years JavaScript experience. I designed, developed, and deployed high-quality static websites from scratch. Experienced in React.js/Native and MaterialUI.</ListParagraph>
         </ListContainer>
       </ListItem>
 
       <ListItem>
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
-          <ListParagraph>Knowledge of using Next.js for building server-side rendered React applications, and its capabilities such as automatic code splitting, optimized performance, and seamless integration with Node.js and Express.</ListParagraph>
+          <ListParagraph>Knowledge of using Next.js for building server-side rendered React applications with Node.js and Express. Experience in building and testing RESTful APIs using Postman and familiar with GraphQL. Knowledge of MySQL and MongoDB</ListParagraph>
         </ListContainer>
       </ListItem>
 
       <ListItem>
         <ListContainer>
           <ListTitle>Blockchain Dev</ListTitle>
-          <ListParagraph>Familiar with Solidity and Hardhat. Deployed a few contracts forked from the Open Zeppelin library on the Ethereum network and worked on non-custodial mobile wallets. Very much looking forward to learning Rust or Haskell.</ListParagraph>
+          <ListParagraph>Familiar with Solidity and Hardhat. Deployed a few contracts forked from the Open Zeppelin library on the Ethereum network and worked on non-custodial mobile wallets and payment gateways. Interested in P2P finance.</ListParagraph>
         </ListContainer>
       </ListItem>
 
@@ -62,7 +62,7 @@ const Technologies = () =>  {
           <ListParagraph>
             <a style={linkStyle} href="https://atsqa.org/certified-testers/profile/a1400f7c67c9434297f354412437c5d0" target="_blank">
               Certified ISTQB tester
-            </a> with experience in manual and automated testing in an agile environment. Competent in writing and running end-to-end tests with Cypress.js. Automated the building, testing and deployment processes of my projects with Netlify.</ListParagraph>
+            </a> with experience in manual and automated testing in an agile environment. Competent in writing and running end-to-end tests with Cypress.js. Automated the building, testing and deployment processes of my projects with Netlify & Jenkins.</ListParagraph>
         </ListContainer>
       </ListItem>
     </List>

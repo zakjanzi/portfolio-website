@@ -33,10 +33,10 @@ const Hero = (props) => {
   <Section row nopadding>
     <LeftSection data-aos="fade-in">
       <SectionTitle main center>
-        Hi there.
+        Hi there,
       </SectionTitle>
       <SectionText>
-        I'm Zak - A full-stack developer with a background in QA testing. <br /> I also like blockchains and distributed systems.
+        I'm Zak. A full-stack developer with a background in QA testing. <br /> I also like blockchains and distributed systems.
       </SectionText>
       <Button onClick={() => window.location = "https://linktr.ee/zakjanzi"}>View CV</Button>
     </LeftSection>

@@ -34,7 +34,7 @@ const Technologies = () =>  {
           <ListParagraph>
             <a style={linkStyle} href="https://atsqa.org/certified-testers/profile/a1400f7c67c9434297f354412437c5d0" target="_blank">
               ISTQB Certified tester
-            </a> with extensive experience working in agile environments. <br/>Competent in writing and running end-to-end tests with Cypress.js. Automated the building, testing and deployment processes of my projects with Netlify & Jenkins.</ListParagraph>
+            </a> with extensive experience working in agile environments. Experience using Cypress.js, Postman and familiar with Selenium. Knowledge of CI/CD tools like Jenkins.</ListParagraph>
         </ListContainer>
       </ListItem>
 
@@ -42,7 +42,7 @@ const Technologies = () =>  {
       <ListItem>
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
-          <ListParagraph>I use Figma to build mockups then turn them to pixel-perfect designs. My JS framework of choice is React.js (and subsequently React Native). I also have experience building, integrating and testing RESTful APIs.</ListParagraph>
+          <ListParagraph>My JS framework of choice is React.js (and subsequently React Native). I strive for intuitive and clean UI design in all of my work. I also have experience building, integrating and testing RESTful APIs.</ListParagraph>
         </ListContainer>
       </ListItem>
 

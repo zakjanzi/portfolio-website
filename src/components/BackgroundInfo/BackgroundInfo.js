@@ -9,7 +9,7 @@ import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalCompon
 import { Box, Boxes, BoxNum, BoxText } from './BackgroundInfoStyles';
 
 const data = [
-  { title: 'B.Sc in Business', text: 'Business grad (Lebanese American University). with an eclectic set of skills.' },
+  { title: 'B.Sc in Business', text: 'A tech-oriented business grad from the Lebanese American University.' },
   { title: 'Startup experience', text: 'Multiple years of experience working in fast-paced agile environments. Strong background in FinTech. (P2P finance)', },
   { title: '3+ Languages', text: ' Fluent in English, Arabic and Swedish.', }
 ];

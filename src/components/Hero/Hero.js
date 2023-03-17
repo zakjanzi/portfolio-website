@@ -36,7 +36,7 @@ const Hero = (props) => {
         Hi there,
       </SectionTitle>
       <SectionText>
-        I'm Zak - A QA tester that codes. <br /> I also like blockchains and distributed systems.
+        I'm Zak - a QA tester that codes. <br /> I also like blockchains and distributed systems.
       </SectionText>
       <Button onClick={() => window.open("https://linktr.ee/zakjanzi", "_blank")}>View CV</Button>
 

@@ -35,11 +35,10 @@ export const projects = [
     live: 'https://zak-coinmarketcapclone.netlify.app/',
     id: 3,
   },
-
   {
     title: 'Metamask Login Button',
     description: "A dApp login button using the Metamask API.",
-    image: '/images/5.webp',
+    image: '/images/5.PNG',
     tags: ['🍦JavaScript', 'Metamask API'],
     code: 'https://github.com/zakjanzi/metamask_login',
     live: 'https://zak-connectwalletbutton.netlify.app/',

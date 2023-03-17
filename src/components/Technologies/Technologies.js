@@ -34,7 +34,7 @@ const Technologies = () =>  {
           <ListParagraph>
             <a style={linkStyle} href="https://atsqa.org/certified-testers/profile/a1400f7c67c9434297f354412437c5d0" target="_blank">
               ISTQB Certified tester
-            </a> with extensive experience working in agile environments. Experience using Cypress.js, Postman and familiar with Selenium. Knowledge of CI/CD tools like Jenkins.</ListParagraph>
+            </a> with extensive experience working in agile environments. Experience using tools like Cypress & Postman. Knowledge of CI/CD tools like Jenkins & Netlify.</ListParagraph>
         </ListContainer>
       </ListItem>
 

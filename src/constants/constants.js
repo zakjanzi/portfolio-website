@@ -1,5 +1,14 @@
 export const projects = [
   {
+    title: 'A Python Scraper',
+    description: "A script that scrapes the value of the LBP against the USD at the shadow market rate, then stores it in a DB.",
+      image: '/images/6.png',
+      tags: ['Python', 'AWS Lambda', 'MongoDB', 'Docker'],
+    code: 'https://github.com/zakjanzi/lira-rate-scraper',
+    live: 'https://zak-jobify.netlify.app/landing',
+    id: 0,
+  },
+  {
     title: 'A MERN Site',
     description: "Track your job applications using Jobify.",
       image: '/images/1.webp',

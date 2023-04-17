@@ -3,7 +3,7 @@ export const projects = [
     title: 'A Python Scraper',
     description: "A script that scrapes the value of the LBP against the USD at the shadow market rate, then stores it in a DB.",
       image: '/images/6.png',
-      tags: ['Python', 'AWS Lambda', 'MongoDB', 'Docker'],
+      tags: ['Python', 'AWS Lambda', 'Mongo', 'Docker'],
     code: 'https://github.com/zakjanzi/lira-rate-scraper',
     live: 'https://zak-jobify.netlify.app/landing',
     id: 0,

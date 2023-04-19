@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Img = styled.img`
   width:100%;
-  height:100%;
+  height:50%;
   object-fit: cover;
   overflow: hidden;
 `
@@ -80,6 +80,16 @@ export const CardInfo = styled.p`
 `;
 
 
+// for the pyScraper project
+export const ResponseContainer = styled.div`
+  background-color: #0000;
+  padding: 1rem;
+  margin-top: 1rem;
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+`;
+
+
 export const UtilityList = styled.ul`
   list-style-type: none;
   padding: 0;
@@ -105,6 +115,8 @@ export const TagList = styled.ul`
 display: flex;
 justify-content: space-around;
 padding: 2rem;
+margin-bottom: 50px;
+margin-top: 20px;
 `
 export const Tag = styled.li`
 color: #d8bfbf;

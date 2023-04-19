@@ -6,7 +6,7 @@ export const projects = [
       tags: ['Python', 'AWS Lambda', 'Mongo', 'Docker'],
     code: 'https://github.com/zakjanzi/lira-rate-scraper',
     live: 'https://zak-jobify.netlify.app/landing',
-    id: 0,
+    id: 'scraper',
   },
   {
     title: 'A MERN Site',

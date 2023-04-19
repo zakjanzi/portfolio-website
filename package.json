@@ -6,7 +6,7 @@
     "build": "next build",
     "start": "next start",
     "export": "next export",
-    "dev": "cross-env NODE_OPTIONS='' next dev"
+    "dev": "cross-env NODE_OPTIONS='--openssl-legacy-provider' next dev"
   },
   "dependencies": {
     "@next/bundle-analyzer": "^13.1.4",

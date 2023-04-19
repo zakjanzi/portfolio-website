@@ -20,7 +20,6 @@ row-gap: 3rem;
   padding: 2rem;
   padding-bottom: 0;
 }
-
 `
 export const BlogCard = styled.div`
   border-radius: 10px;
@@ -80,16 +79,6 @@ export const CardInfo = styled.p`
 `;
 
 
-// for the pyScraper project
-export const ResponseContainer = styled.div`
-  background-color: #0000;
-  padding: 1rem;
-  margin-top: 1rem;
-  white-space: pre-wrap;
-  overflow-wrap: break-word;
-`;
-
-
 export const UtilityList = styled.ul`
   list-style-type: none;
   padding: 0;
@@ -121,4 +110,31 @@ margin-top: 20px;
 export const Tag = styled.li`
 color: #d8bfbf;
 font-size: 1.5rem;
-`
+`;
+
+
+// for the pyScraper project
+export const ResponseContainer = styled.div`
+  background-color: #0000;
+  padding: 1rem;
+  margin-top: 1rem;
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+`;
+
+
+export const FaSpinner = styled.div`
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  border-left-color: #09f;
+  border-radius: 50%;
+  height: 24px;
+  width: 24px;
+  animation: spin 1s linear infinite;
+
+  @keyframes spin {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+`;
+

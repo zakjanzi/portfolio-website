@@ -49,7 +49,7 @@ const Technologies = () =>  {
       <ListItem>
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
-          <ListParagraph>Knowledge using Next.js for building server-side rendered React applications with Node/Express. Knowledge of SQL and Non-SQL Databases. Interested in exploring a langauge like Rust or C#.</ListParagraph>
+          <ListParagraph>Knowledge using Next.js for building server-side rendered React applications with Node & Express. Knowledge of MySQL queries and MongoDB. Interested in exploring a functional langauge like Elm or Haskell.</ListParagraph>
         </ListContainer>
       </ListItem>
 

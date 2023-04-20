@@ -9,13 +9,17 @@ import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag,
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
 // Data/content.
 import { projects } from '../../constants/constants';
+import { FaSpinner } from 'react-icons/fa';
 
 const Projects = () => {
   const [responses, setResponses] = useState({});
   const [showResponse, setShowResponse] = useState(false);
   const [currentProjectId, setCurrentProjectId] = useState('');
+  const [isLoading, setIsLoading] = useState(false);
+
 
   const handleSendRequest = async (id) => {
+    setIsLoading(true);
     // make API call (lambda function)
     const response = await fetch('https://kh0nb8jzt2.execute-api.eu-north-1.amazonaws.com/prod');
     const data = await response.json();
@@ -25,6 +29,7 @@ const Projects = () => {
     }));
     setShowResponse(true);
     setCurrentProjectId(id);
+    setIsLoading(false);
   };
   
 
@@ -50,7 +55,7 @@ const Projects = () => {
               </TagList>
               {showResponse && currentProjectId === project.id && (
                 <ResponseContainer>
-                  <p>{responses[project.id]}</p>
+                  <p data-aos="fade-in">{responses[project.id]}</p>
                 </ResponseContainer>
               )}
             </div>
@@ -59,7 +64,9 @@ const Projects = () => {
                 View Code
               </ExternalLinks>
               {project.id === 'scraper' ? (
-                <ExternalLinks onClick={() => handleSendRequest(project.id)}>Send Request</ExternalLinks>
+                <ExternalLinks onClick={() => handleSendRequest(project.id)}>
+                  {isLoading ? <FaSpinner data-aos="fade-in"/> : 'Send Request'}
+                </ExternalLinks>
               ) : (
                 <ExternalLinks href={project.live} target="_blank">
                   View Site

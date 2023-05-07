@@ -10,7 +10,7 @@ import { Box, Boxes, BoxNum, BoxText } from './BackgroundInfoStyles';
 
 const data = [
   { title: 'B.Sc in Business', text: 'A tech-oriented business grad from the Lebanese American University.' },
-  { title: 'Startup experience', text: 'Multiple years of experience working in fast-paced agile environments. Strong background in FinTech. (P2P finance)', },
+  { title: 'Startup experience', text: 'Multiple years of experience working in fast-paced agile environments with a strong background in FinTech. (P2P finance)', },
   { title: 'Other', text: ' Trilingual', }
 ];
 

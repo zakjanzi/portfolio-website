@@ -25,7 +25,7 @@ const Hero = (props) => {
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://zakjanzi.netlify.app" />
         <meta property="og:image" content="https://i.postimg.cc/fbWn28R6/SON8258-Copy-2.jpg" />
-        <meta property="og:description" content="Junior full-stack JavaScript developer" />
+        <meta property="og:description" content="Full-Stack QA Engineer" />
         <meta property="og:site_name" content="Zak's Portfolio" />
 
     </Helmet>
@@ -36,7 +36,7 @@ const Hero = (props) => {
         Hi there,
       </SectionTitle>
       <SectionText>
-        I'm Zak - a QA tester that codes. <br /> I also like blockchains and distributed systems.
+        I'm Zak - a Full-Stack QA Engineer. <br /> I also like blockchains and distributed systems.
       </SectionText>
       <Button onClick={() => window.open("https://linktr.ee/zakjanzi", "_blank")}>View CV</Button>
 

@@ -42,14 +42,14 @@ const Technologies = () =>  {
       <ListItem>
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
-          <ListParagraph>My JS framework of choice is React.js (and subsequently React Native). I strive for intuitive and clean UI design in all of my work. I also have experience building, integrating and testing RESTful APIs.</ListParagraph>
+          <ListParagraph>Experience building and maintaining reusable components using React and React Native. Proficiency in creating visually appealing UI with a focus on intuitive User experience.I also have experience building, integrating and testing RESTful APIs.</ListParagraph>
         </ListContainer>
       </ListItem>
 
       <ListItem>
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
-          <ListParagraph>Knowledge using Next.js for building server-side rendered React applications with Node & Express. Knowledge of MySQL queries and MongoDB. Interested in exploring a functional langauge like Elm or Haskell.</ListParagraph>
+          <ListParagraph>Next.js is my go to framework for building server-side rendered React applications (as well as full-stack applications with serverless APIs). Knowledge of SQL and No-SQL Databases. Interested in exploring a functional langauge like Haskell.</ListParagraph>
         </ListContainer>
       </ListItem>
 

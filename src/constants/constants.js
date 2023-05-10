@@ -12,7 +12,7 @@ export const projects = [
     title: 'A MERN Site',
     description: "A basic CRUD app including unit, integration & E2E tests.",
       image: '/images/1.webp',
-      tags: ['MERN stack', 'Cypress'],
+      tags: ['MERN stack', 'Cypress', 'REST-Assured', 'JUnit'],
     code: 'https://github.com/zakjanzi/jobify-app',
     live: 'https://zak-jobify.netlify.app/landing',
     id: 0,

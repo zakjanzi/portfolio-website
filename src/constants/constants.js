@@ -9,8 +9,8 @@ export const projects = [
     id: 'scraper',
   },
   {
-    title: 'A MERN Site',
-    description: "A basic CRUD app including unit, integration & E2E tests.",
+    title: 'A MERN App',
+    description: "An automated testing framework for a CRUD app. Includes E2E, integration & API test.",
       image: '/images/1.webp',
       tags: ['MERN stack', 'Cypress', 'REST-Assured', 'JUnit'],
     code: 'https://github.com/zakjanzi/jobify-app',

@@ -1,5 +1,14 @@
 export const projects = [
   {
+    title: 'Autoamted Testing Framework',
+    description: "A suite of automated tests for an E-Bank using Selenium and TestNG.",
+      image: '/images/7.png',
+      tags: ['Selenium', 'Java', 'TestNG'],
+    code: 'https://github.com/zakjanzi/lira-rate-scraper',
+    live: 'https://zak-jobify.netlify.app/landing',
+    id: '5',
+  },
+  {
     title: 'A Python Scraper',
     description: "A script that scrapes the value of the LBP against the USD at the shadow market rate, then stores it in a DB.",
       image: '/images/6.png',
@@ -10,9 +19,9 @@ export const projects = [
   },
   {
     title: 'A MERN App',
-    description: "An automated testing framework for a CRUD app. Includes E2E, integration & API test.",
+    description: "An automated testing framework for a CRUD app that I built. Includes E2E, integration & API test.",
       image: '/images/1.webp',
-      tags: ['MERN stack', 'Cypress', 'REST-Assured', 'JUnit'],
+      tags: ['MERN', 'Cypress', 'REST-Assured', 'JUnit'],
     code: 'https://github.com/zakjanzi/jobify-app',
     live: 'https://zak-jobify.netlify.app/landing',
     id: 0,
@@ -21,7 +30,7 @@ export const projects = [
     title: 'A Company Site',
     description:"A static website for a Parkour & Gymnastics gym. ",
     image: '/images/2.gif',
-    tags: ['HTML', 'SCSS', '🍦JavaScript', 'Cypress'],
+    tags: ['HTML', 'SCSS', '🍦JavaScript'],
     code: 'https://github.com/zakjanzi/team-adrenaline-website',
     live: "https://teamadrenaline.me",
     id: 1,

@@ -30,11 +30,11 @@ const Technologies = () =>  {
 
     <ListItem>
         <ListContainer>
-          <ListTitle>QA Testing</ListTitle>
+          <ListTitle>Quality Assurance</ListTitle>
           <ListParagraph>
             <a style={linkStyle} href="https://atsqa.org/certified-testers/profile/a1400f7c67c9434297f354412437c5d0" target="_blank">
               ISTQB Certified tester
-            </a> with extensive experience working in agile environments. Experience using tools like Cypress & Postman. Knowledge of CI/CD tools like Jenkins & Netlify.</ListParagraph>
+            </a> with experience in Manual and Automated testing. Knowledge of tools and frameworks such as Cypress, Selenium, TestNG, Jenkins and REST Assured. Experience testing APIs and Databases.</ListParagraph>
         </ListContainer>
       </ListItem>
 
@@ -42,14 +42,14 @@ const Technologies = () =>  {
       <ListItem>
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
-          <ListParagraph>Experience building and maintaining reusable components using React and React Native. Proficiency in creating visually appealing UI with a focus on intuitive User experience.I also have experience building, integrating and testing RESTful APIs.</ListParagraph>
+          <ListParagraph>Experience building and maintaining React and React Native components with emphasis on reusability. Proficiency in creating visually appealing UI with a focus on intuitive User experience.</ListParagraph>
         </ListContainer>
       </ListItem>
 
       <ListItem>
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
-          <ListParagraph>Next.js is my go to framework for building server-side rendered React applications (as well as full-stack applications with serverless APIs). Knowledge of SQL and No-SQL Databases. Interested in exploring a functional langauge like Haskell.</ListParagraph>
+          <ListParagraph>Next.js is my go to framework for building server-side rendered React applications (as well as full-stack applications with serverless APIs). As for DBs, I am expereinced with SQL and No-SQL databases. Interested in exploring a functional langauge like Haskell.</ListParagraph>
         </ListContainer>
       </ListItem>
 

@@ -12,11 +12,11 @@ const Header = () =>  (
     <Div1>
       <Link href="/">
         <a style= {{display:'flex', alignItems:"center", color:"white", marginBottom:"20px"}}> 
-        <img src="https://i.postimg.cc/tJHX7zS8/profile.webp" style= {{width:'40px', height:'40px', marginRight: '10px'}}/> <Span>Portfolio</Span>
+        <img src="https://i.postimg.cc/qBCgMC8J/image.png" style= {{width:'40px', height:'40px', marginRight: '10px'}}/> <Span>Zak's Portfolio</Span>
         </a>
       </Link>
     </Div1>
-    <Div2>
+    {/* <Div2>
       <li>
         <Link href="#projects">
           <NavLink>Projects</NavLink>
@@ -32,7 +32,7 @@ const Header = () =>  (
           <NavLink>About</NavLink>
         </Link>
       </li>
-    </Div2>
+    </Div2> */}
 
     <Div3>
       <SocialIcons href='https://github.com/zakjanzi' target='_blank'>

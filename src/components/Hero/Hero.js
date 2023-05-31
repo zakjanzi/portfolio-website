@@ -11,6 +11,18 @@ import "aos/dist/aos.css"
 import { Helmet } from 'react-helmet';
 
 const Hero = (props) => {
+  useEffect(() => {
+    const script = document.createElement('script');
+    script.src = 'https://contra.com/static/embed/sdk.js';
+    script.async = true;
+    script.charset = 'utf-8';
+    document.body.appendChild(script);
+
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
+  
     useEffect(() => {
     Aos.init({ 
       duration: 2000
@@ -38,7 +50,9 @@ const Hero = (props) => {
       <SectionText>
         I'm Zak - a Full-Stack QA Engineer. <br /> I also like blockchains and distributed systems.
       </SectionText>
-      <Button onClick={() => window.open("https://linktr.ee/zakjanzi", "_blank")}>View CV</Button>
+      {/* <Button onClick={() => window.open("https://linktr.ee/zakjanzi", "_blank")}>View CV</Button> */}
+      <div className="contra-hire-me-button" data-analyticsUserId="5dba78c3-c264-42eb-a9c1-652bb54958d0" data-theme="dark" data-username="zakjanzi_z23fzkfn" style={{ fontSize: '16px'}}></div>
+
 
     </LeftSection>
   </Section>

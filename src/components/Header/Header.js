@@ -16,8 +16,8 @@ const Header = () =>  (
         </a>
       </Link>
     </Div1>
-    {/* <Div2>
-      <li>
+    <Div2>
+      {/* <li>
         <Link href="#projects">
           <NavLink>Projects</NavLink>
         </Link>
@@ -31,10 +31,15 @@ const Header = () =>  (
         <Link href="#background">
           <NavLink>About</NavLink>
         </Link>
-      </li>
-    </Div2> */}
+      </li> */}
+    </Div2>
 
     <Div3>
+
+    <SocialIcons href='https://drive.google.com/file/d/1ypjTs2rqzpqbPvI3U6Im7ZhKTwtIjtIl/view' target='_blank'>
+        <span>View CV</span>
+    </SocialIcons>
+
       <SocialIcons href='https://github.com/zakjanzi' target='_blank'>
         <AiFillGithub size="3rem" />
       </SocialIcons>
@@ -43,9 +48,7 @@ const Header = () =>  (
         <AiFillLinkedin size="3rem" />
       </SocialIcons>
 
-      <SocialIcons href='https://codepen.io/zakjanzi' target='_blank'>
-          <AiFillCodepenCircle size="3rem" />
-      </SocialIcons>
+
       </Div3>
 
   </Container>

@@ -49,7 +49,7 @@ const Technologies = () =>  {
       <ListItem>
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
-          <ListParagraph>Next.js is my go to framework for building server-side rendered React applications (as well as full-stack applications with serverless APIs). As for DBs, I am expereinced with SQL and No-SQL databases. Interested in exploring a functional langauge like Haskell.</ListParagraph>
+          <ListParagraph>Next.js is my go to framework for building server-side rendered React applications (as well as full-stack applications with serverless APIs). As for DBs, I am experienced with SQL and No-SQL databases. Interested in exploring a functional langauge like Haskell.</ListParagraph>
         </ListContainer>
       </ListItem>
 

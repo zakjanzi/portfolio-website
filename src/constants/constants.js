@@ -4,9 +4,9 @@ export const projects = [
     description: "A suite of automated tests for an E-Bank using Selenium and TestNG.",
       image: '/images/7.png',
       tags: ['Selenium', 'Java', 'TestNG'],
-    code: 'https://github.com/zakjanzi/lira-rate-scraper',
-    live: 'https://zak-jobify.netlify.app/landing',
-    id: '5',
+    code: 'https://github.com/zakjanzi/E2E-Testing-Framework',
+    live: '',
+    id: 'tests',
   },
   {
     title: 'A Python Scraper',

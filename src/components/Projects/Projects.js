@@ -17,21 +17,23 @@ const Projects = () => {
   const [currentProjectId, setCurrentProjectId] = useState('');
   const [isLoading, setIsLoading] = useState(false);
 
-
   const handleSendRequest = async (id) => {
     setIsLoading(true);
     // make API call (lambda function)
     const response = await fetch('https://kh0nb8jzt2.execute-api.eu-north-1.amazonaws.com/prod');
     const data = await response.json();
-    setResponses(prevResponses => ({
+    setResponses((prevResponses) => ({
       ...prevResponses,
-      [id]: JSON.stringify(data)
+      [id]: JSON.stringify(data),
     }));
     setShowResponse(true);
     setCurrentProjectId(id);
     setIsLoading(false);
   };
-  
+
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
 
   return (
     <Section nopadding id="projects" data-aos="fade-up">
@@ -60,18 +62,24 @@ const Projects = () => {
               )}
             </div>
             <UtilityList>
-              <ExternalLinks href={project.code} target="_blank">
-                View Code
-              </ExternalLinks>
-              {project.id === 'scraper' ? (
-                <ExternalLinks onClick={() => handleSendRequest(project.id)}>
-                  {isLoading ? <FaSpinner data-aos="fade-in"/> : 'Send Request'}
+              {project.id === 'tests' ? (
+                <ExternalLinks href={project.code} target="_blank">
+                  View Scripts
                 </ExternalLinks>
               ) : (
+                <ExternalLinks href={project.code} target="_blank">
+                  View Code
+                </ExternalLinks>
+              )}
+              {project.id === 'scraper' ? (
+                <ExternalLinks onClick={() => handleSendRequest(project.id)}>
+                  {isLoading ? <FaSpinner data-aos="fade-in" /> : 'Send Request'}
+                </ExternalLinks>
+              ) : project.id !== 'tests' ? (
                 <ExternalLinks href={project.live} target="_blank">
                   View Site
                 </ExternalLinks>
-              )}
+              ) : null}
             </UtilityList>
           </BlogCard>
         ))}

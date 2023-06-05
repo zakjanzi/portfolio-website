@@ -36,7 +36,7 @@ const Header = () =>  (
 
     <Div3>
 
-    <SocialIcons href='https://drive.google.com/file/d/1ypjTs2rqzpqbPvI3U6Im7ZhKTwtIjtIl/view' target='_blank'>
+    <SocialIcons href='https://drive.google.com/file/d/1c0eSeO5_asthmP5n7ApcBpcQd1eFM27a/view' target='_blank'>
         <span>View CV</span>
     </SocialIcons>
 

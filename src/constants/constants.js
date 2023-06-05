@@ -1,6 +1,6 @@
 export const projects = [
   {
-    title: 'Autoamted Testing Framework',
+    title: 'Automated Testing Framework',
     description: "A suite of automated tests for an E-Bank using Selenium and TestNG.",
       image: '/images/7.png',
       tags: ['Selenium', 'Java', 'TestNG'],
@@ -36,6 +36,15 @@ export const projects = [
     id: 1,
   },
   {
+    title: 'A Cryptocurrency Dashboard',
+    description: "A slightly more aesthetic version of coinmarketcap. Followed the SSR design pattern.",
+    image: '/images/4.gif',
+    tags: ['Node.js', 'Next.js 13','Crypto-Compare API',],
+    code: 'https://github.com/zakjanzi/coinmarketcap_clone',
+    live: 'https://zak-coinmarketcapclone.netlify.app/',
+    id: 3,
+  },
+  {
     title: 'Conway\u0027s game of life',
     description: "Conway’s Game of Life cellular automata simulation in JavaScript using the p5.js library.",
     image: '/images/3.gif',
@@ -44,15 +53,7 @@ export const projects = [
     live: 'https://zak-gameoflife.netlify.app/',
     id: 2,
   },
-  {
-    title: 'A Cryptocurrency Dashboard',
-    description: "A slightly more aesthetic version of coinmarketcap.",
-    image: '/images/4.gif',
-    tags: ['Node.js', 'Next.js','Crypto-Compare API',],
-    code: 'https://github.com/zakjanzi/coinmarketcap_clone',
-    live: 'https://zak-coinmarketcapclone.netlify.app/',
-    id: 3,
-  },
+
   // {
   //   title: 'Metamask Login Button',
   //   description: "A dApp login button using the Metamask API.",

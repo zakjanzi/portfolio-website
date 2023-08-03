@@ -19,11 +19,11 @@ export const projects = [
   },
   {
     title: 'A MERN App',
-    description: "An automated testing framework for a CRUD app that I built. Includes E2E, integration & API test.",
+    description: "An automated testing framework for a CRUD app MERN.",
       image: '/images/1.webp',
       tags: ['MERN', 'Cypress', 'REST-Assured', 'JUnit'],
     code: 'https://github.com/zakjanzi/jobify-app',
-    live: 'https://zak-jobify.netlify.app/landing',
+    live: 'https://jobify-yzhh.onrender.com/',
     id: 0,
   },
   {

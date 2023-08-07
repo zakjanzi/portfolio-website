@@ -23,7 +23,7 @@ export const projects = [
       image: '/images/1.webp',
       tags: ['MERN', 'Cypress', 'REST-Assured', 'JUnit'],
     code: 'https://github.com/zakjanzi/jobify-app',
-    live: 'https://jobify-yzhh.onrender.com/',
+    live: 'https://jobify-app-three.vercel.app/landing',
     id: 0,
   },
   {

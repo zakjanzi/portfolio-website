@@ -19,7 +19,7 @@ export const projects = [
   },
   {
     title: 'A MERN App',
-    description: "A MERN app & its automated framework.",
+    description: "A MERN app & its automated testing framework.",
       image: '/images/1.webp',
       tags: ['MERN', 'Cypress', 'REST-Assured', 'JUnit'],
     code: 'https://github.com/zakjanzi/jobify-app',

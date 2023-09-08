@@ -62,25 +62,39 @@ const Projects = () => {
               )}
             </div>
             <UtilityList>
-              {project.id === 'tests' ? (
-                <ExternalLinks href={project.code} target="_blank">
-                  View Scripts
-                </ExternalLinks>
-              ) : (
-                <ExternalLinks href={project.code} target="_blank">
-                  View Code
-                </ExternalLinks>
-              )}
-              {project.id === 'scraper' ? (
-                <ExternalLinks onClick={() => handleSendRequest(project.id)}>
-                  {isLoading ? <FaSpinner data-aos="fade-in" /> : 'Send Request'}
-                </ExternalLinks>
-              ) : project.id !== 'tests' ? (
-                <ExternalLinks href={project.live} target="_blank">
-                  View Site
-                </ExternalLinks>
-              ) : null}
-            </UtilityList>
+                {project.id === 'tests' ? (
+                  <ExternalLinks href={project.code} target="_blank">
+                    View Scripts
+                  </ExternalLinks>
+                ) : project.id === 'crypto-wallet' ? (
+                  <>
+                  <ExternalLinks href={project.live} target="_blank">
+                    Download ZIP File
+                  </ExternalLinks>
+                   <ExternalLinks href={project.code} target="_blank">
+                   View Code
+                 </ExternalLinks>
+                 </>
+                ) : project.id === 'scraper' ? (
+                  <>
+                    <ExternalLinks href={project.code} target="_blank">
+                      View Code
+                    </ExternalLinks>
+                    <ExternalLinks onClick={() => handleSendRequest(project.id)}>
+                      {isLoading ? <FaSpinner data-aos="fade-in" /> : 'Send Request'}
+                    </ExternalLinks>
+                  </>
+                ) : (
+                  <ExternalLinks href={project.code} target="_blank">
+                    View Code
+                  </ExternalLinks>
+                )}
+                {project.id !== 'tests' && project.id !== 'scraper' && project.id !== 'crypto-wallet' && (
+                  <ExternalLinks href={project.live} target="_blank">
+                    View Site
+                  </ExternalLinks>
+                )}
+              </UtilityList>
           </BlogCard>
         ))}
       </GridContainer>

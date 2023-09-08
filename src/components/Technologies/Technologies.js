@@ -34,7 +34,7 @@ const Technologies = () =>  {
           <ListParagraph>
             <a style={linkStyle} href="https://atsqa.org/certified-testers/profile/a1400f7c67c9434297f354412437c5d0" target="_blank">
               ISTQB Certified tester
-            </a> with experience in Manual and Automated testing. Knowledge of tools and frameworks such as Cypress, Selenium, TestNG, Jenkins and REST Assured. Experience testing APIs and Databases.</ListParagraph>
+            </a> with experience in Manual and Automated testing. Knowledge of tools and frameworks such as Cypress, Selenium, TestNG, Jenkins and Postman. Experience testing APIs and Databases.</ListParagraph>
         </ListContainer>
       </ListItem>
 
@@ -49,7 +49,7 @@ const Technologies = () =>  {
       <ListItem>
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
-          <ListParagraph>Next.js is my preferred choice for building a wide range of applications, including server-side rendered React apps, as well as full-stack applications with serverless APIs, while utilizing cloud deployments for hosting and scaling.</ListParagraph>
+          <ListParagraph>I use Next.js for building full-stack applications with serverless APIs, while utilizing cloud deployments for hosting and scaling. Currently experimenting with Golang.</ListParagraph>
         </ListContainer>
       </ListItem>
 

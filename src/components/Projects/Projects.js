@@ -18,17 +18,39 @@ const Projects = () => {
   const [isLoading, setIsLoading] = useState(false);
 
   const handleSendRequest = async (id) => {
-    setIsLoading(true);
-    // make API call (lambda function)
-    const response = await fetch('https://kh0nb8jzt2.execute-api.eu-north-1.amazonaws.com/prod');
-    const data = await response.json();
-    setResponses((prevResponses) => ({
-      ...prevResponses,
-      [id]: JSON.stringify(data),
-    }));
-    setShowResponse(true);
-    setCurrentProjectId(id);
-    setIsLoading(false);
+    try {
+      
+      const response = await fetch('https://kh0nb8jzt2.execute-api.eu-north-1.amazonaws.com/prod');
+      
+      if (!response.ok) {
+        // Check if the response status is not ok (e.g., 404 or 500)
+        throw new Error('Error fetching data');
+      }
+
+      const data = await response.json();
+  
+      setResponses((prevResponses) => ({
+        ...prevResponses,
+        [id]: JSON.stringify(data),
+      }));
+      setShowResponse(true);
+      setCurrentProjectId(id);
+    } catch (error) {
+
+      console.error(error);
+      
+      // Update state or display a message to the user
+      setResponses((prevResponses) => ({
+        ...prevResponses,
+        [id]: 'Something broke. I\'ll fix it the next time I\'m unemployed',
+      }));
+      setShowResponse(true);
+      setCurrentProjectId(id);
+    } finally {
+      // This block will be executed regardless of whether there was an error or not
+      setIsLoading(false);
+    }
+  };
   };
 
   useEffect(() => {

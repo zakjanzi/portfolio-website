@@ -51,7 +51,7 @@ const Projects = () => {
       setIsLoading(false);
     }
   };
-  };
+  
 
   useEffect(() => {
     Aos.init({ duration: 1000 });
